@@ -24,6 +24,14 @@
 
   .banner-container {
     flex-direction: column-reverse;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: bottom;
+    padding: 0;
+  }
+  .banner-text {
+    margin-top: 10px;
   }
   .banner-img img {
     width: 380px;
@@ -50,6 +58,14 @@
   .online-games-obx-img {
     margin-bottom: 10px;
   }
+  .online-games-title p{
+    font-size: 15px;
+  }
+  .online-games-box .online-games-dis{
+    font-size: 12px;
+    text-align: center;
+    
+  }
 
   /* play instantly section */
 
@@ -57,7 +73,7 @@
     flex-direction: column;
     margin: 0 auto 50px;
   }
-  .play-instantly-text{
+  .play-instantly-text {
     padding: 10px;
     margin-left: 0;
   }
@@ -65,15 +81,14 @@
   .play-instantly-text p {
     text-align: center;
   }
-  .play-instantly-text p{
+  .play-instantly-text p {
     margin-bottom: 50px;
   }
-  .play-instantly-img .rdr2{
+  .play-instantly-img .rdr2 {
     width: 300px;
     position: relative;
     top: 0;
     right: -30px;
-
   }
   .parasite-img {
     width: 150px;
@@ -81,6 +96,76 @@
     right: 180px;
   }
 
+  /* catagories section */
+
+  .cataogries-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .cataogries-container div {
+    width: max-content;
+    margin: 20px;
+    padding: 0;
+    gap: 5px;
+  }
+  .cataogries-container div img {
+    width: 25px;
+  }
+  .cataogries-container p {
+    font-size: 0.5rem;
+  }
+  .cataogries-container div:hover {
+    border-radius: 30px;
+  }
+
+  /* footer section */
+
+  .footer-anchor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-anchor-container a {
+    width: 110px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .btns {
+    margin: 30px;
+  }
+  .terms-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 50px 20px;
+    gap: 20px;
+  }
+  .terms-container p {
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer-trademark {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .footer-trademark-br {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -108,7 +193,11 @@
 
   .banner-container {
     flex-direction: column;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
   }
+
   .banner-img img {
     width: 650px;
   }
@@ -137,35 +226,103 @@
   .online-games-obx-img {
     margin-bottom: 10px;
   }
-
-    /* play instantly section */
-
-    .play-instantly-section {
-        flex-direction: column;
-        margin: 0 auto 50px;
-      }
-      .play-instantly-text{
-        padding: 10px;
-        margin-left: 0;
-      }
-      .play-instantly-text h1,
-      .play-instantly-text p {
-        text-align: center;
-      }
-      .play-instantly-text p{
-        margin-bottom: 50px;
-      }
-      .play-instantly-img .rdr2{
-        width: 500px;
-        position: relative;
-        top: 0;
-        right: -60px;
+  .online-games-box .online-games-dis{
+    text-align: center;
     
-      }
-      .parasite-img {
-        width: 250px;
-        top: 290px;
-        right: 295px;
-      }
-    
+  }
+  
+
+  /* play instantly section */
+
+  .play-instantly-section {
+    flex-direction: column;
+    margin: 0 auto 50px;
+  }
+  .play-instantly-text {
+    padding: 10px;
+    margin-left: 0;
+  }
+  .play-instantly-text h1,
+  .play-instantly-text p {
+    text-align: center;
+  }
+  .play-instantly-text p {
+    margin-bottom: 50px;
+  }
+  .play-instantly-img .rdr2 {
+    width: 500px;
+    position: relative;
+    top: 0;
+    right: -60px;
+  }
+  .parasite-img {
+    width: 250px;
+    top: 290px;
+    right: 295px;
+  }
+
+  /* catagories section */
+  .cataogries-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .cataogries-container div {
+    width: max-content;
+    margin: 20px;
+    padding: 10px;
+    gap: 5px;
+  }
+  .cataogries-container div img {
+    width: 50px;
+  }
+  .cataogries-container p {
+    font-size: 15px;
+  }
+
+  /* footer section */
+
+  .footer-anchor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-anchor-container a {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .btns {
+    margin: 30px;
+    width: 150px;
+  }
+  .terms-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 50px 20px;
+    gap: 20px;
+  }
+  .terms-container p {
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer-trademark {
+    width: 500px;
+    margin-top: 10px;
+  }
+
 }
