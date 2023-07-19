@@ -1,77 +1,171 @@
 @media screen and (max-width: 576px) {
-    /* nav section */
-    .nav-container{
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px 60px 50px 50px;
-    }
-    .nav-logo-container{
-        gap: 10px;
-        justify-items: center;
-        width: auto;
-    }
-    .nav-item-container{
-        flex-direction: column;
-    }
-    .nav-item-container a{
-        margin-top: 50px;
-    }
-    .nav-item-container .follow-btn{
-        width: 262px;
-    }
+  /* nav section */
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 60px 50px 50px;
+  }
+  .nav-logo-container {
+    gap: 10px;
+    justify-items: center;
+    width: auto;
+  }
+  .nav-item-container {
+    flex-direction: column;
+  }
+  .nav-item-container a {
+    margin-top: 50px;
+  }
+  .nav-item-container .follow-btn {
+    width: 262px;
+  }
 
-    /* banner section */
+  /* banner section */
 
-    .banner-container{
-        flex-direction: column-reverse;
-    }
-    .banner-img img{
-        width: 380px;
-    }
-    .banner-text h2 {
-        margin-top: 100px;
-    } 
-    .banner-btns{
-        margin-bottom: 100px;
-    }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-img img {
+    width: 380px;
+  }
+  .banner-text h2 {
+    margin-top: 100px;
+  }
+  .banner-btns {
+    margin-bottom: 100px;
+  }
+
+  /* online games section */
+  .online-games-title {
+    padding: 20px;
+  }
+  .online-games-img {
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-games-box {
+    margin-bottom: 30px;
+  }
+  .online-games-obx-img {
+    margin-bottom: 10px;
+  }
+
+  /* play instantly section */
+
+  .play-instantly-section {
+    flex-direction: column;
+    margin: 0 auto 50px;
+  }
+  .play-instantly-text{
+    padding: 10px;
+    margin-left: 0;
+  }
+  .play-instantly-text h1,
+  .play-instantly-text p {
+    text-align: center;
+  }
+  .play-instantly-text p{
+    margin-bottom: 50px;
+  }
+  .play-instantly-img .rdr2{
+    width: 300px;
+    position: relative;
+    top: 0;
+    right: -30px;
+
+  }
+  .parasite-img {
+    width: 150px;
+    top: 180px;
+    right: 180px;
+  }
+
 }
 
-@media screen and (min-width: 577px)  and (max-width: 992px) {
-    .nav-container{
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px 60px 50px 50px;
-    }
-    .nav-logo-container{
-        gap: 10px;
-        justify-items: center;
-        width: auto;
-    }
-    .nav-item-container{
-        flex-direction: column;
-    }
-    .nav-item-container a{
-        margin-top: 50px;
-    }
-    .nav-item-container .follow-btn{
-        width: 262px;
-    }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 60px 50px 50px;
+  }
+  .nav-logo-container {
+    gap: 10px;
+    justify-items: center;
+    width: auto;
+  }
+  .nav-item-container {
+    flex-direction: column;
+  }
+  .nav-item-container a {
+    margin-top: 50px;
+  }
+  .nav-item-container .follow-btn {
+    width: 262px;
+  }
 
-    /* banner section */
+  /* banner section */
 
-    .banner-container{
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-img img {
+    width: 650px;
+  }
+  .banner-img {
+    margin-bottom: 100px;
+  }
+  .banner-text h2 {
+    margin-top: 100px;
+  }
+  .banner-btns {
+    margin-bottom: 100px;
+  }
+
+  /* online games section */
+  .online-games-title {
+    padding: 20px;
+  }
+  .online-games-img {
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .online-games-box {
+    margin-bottom: 30px;
+  }
+  .online-games-obx-img {
+    margin-bottom: 10px;
+  }
+
+    /* play instantly section */
+
+    .play-instantly-section {
         flex-direction: column;
-    }
-    .banner-img img{
-        width: 650px;
-    }
-    .banner-img{
-        margin-bottom: 100px;
-    }
-    .banner-text h2 {
-        margin-top: 100px;
-    } 
-    .banner-btns{
-        margin-bottom: 100px;
-    }
+        margin: 0 auto 50px;
+      }
+      .play-instantly-text{
+        padding: 10px;
+        margin-left: 0;
+      }
+      .play-instantly-text h1,
+      .play-instantly-text p {
+        text-align: center;
+      }
+      .play-instantly-text p{
+        margin-bottom: 50px;
+      }
+      .play-instantly-img .rdr2{
+        width: 500px;
+        position: relative;
+        top: 0;
+        right: -60px;
+    
+      }
+      .parasite-img {
+        width: 250px;
+        top: 290px;
+        right: 295px;
+      }
+    
 }
