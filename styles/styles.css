@@ -343,6 +343,10 @@ nav {
 .list-right-side {
   text-align: right;
 }
+.carrer-text button{
+  cursor: pointer;
+  color: #ff42a5;
+}
 
 /* catagories section */
 
