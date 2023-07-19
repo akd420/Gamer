@@ -43,6 +43,19 @@
     margin-bottom: 100px;
   }
 
+  /* we-are-gamer section */
+
+  .we-are-gamer-div {
+    flex-direction: column;
+    padding: 0;
+  }
+  .we-are-gamer-img img {
+    width: 400px;
+  }
+  .we-are-gamer-text {
+    text-align: center;
+  }
+
   /* online games section */
   .online-games-title {
     padding: 20px;
@@ -58,13 +71,12 @@
   .online-games-obx-img {
     margin-bottom: 10px;
   }
-  .online-games-title p{
+  .online-games-title p {
     font-size: 15px;
   }
-  .online-games-box .online-games-dis{
+  .online-games-box .online-games-dis {
     font-size: 12px;
     text-align: center;
-    
   }
 
   /* play instantly section */
@@ -94,6 +106,31 @@
     width: 150px;
     top: 180px;
     right: 180px;
+  }
+
+  /* Careers section */
+
+  .carrer-container {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .carrer-img {
+    width: 300px;
+  }
+  .carrer-img img {
+    width: 325px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  .carrer-text {
+    width: 300px;
+    padding: 5px;
+  }
+  .carrer-text h1 {
+    font-size: 32px;
+  }
+  .carrer-text p {
+    font-size: 15px;
   }
 
   /* catagories section */
@@ -210,7 +247,18 @@
   .banner-btns {
     margin-bottom: 100px;
   }
+  /* we-are-gamer section */
 
+  .we-are-gamer-div {
+    flex-direction: column;
+    padding: 0;
+  }
+  .we-are-gamer-img img {
+    width: 600px;
+  }
+  .we-are-gamer-text {
+    text-align: center;
+  }
   /* online games section */
   .online-games-title {
     padding: 20px;
@@ -226,11 +274,9 @@
   .online-games-obx-img {
     margin-bottom: 10px;
   }
-  .online-games-box .online-games-dis{
+  .online-games-box .online-games-dis {
     text-align: center;
-    
   }
-  
 
   /* play instantly section */
 
@@ -259,6 +305,31 @@
     width: 250px;
     top: 290px;
     right: 295px;
+  }
+
+  /* Careers section */
+
+  .carrer-container {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .carrer-img {
+    width: 600px;
+  }
+  .carrer-img img {
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+  }
+  .carrer-text {
+    width: 600px;
+    padding: 5px;
+  }
+  .carrer-text h1 {
+    font-size: 32px;
+  }
+  .carrer-text p {
+    font-size: 15px;
   }
 
   /* catagories section */
@@ -324,5 +395,4 @@
     width: 500px;
     margin-top: 10px;
   }
-
 }

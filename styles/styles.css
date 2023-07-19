@@ -120,6 +120,54 @@ nav {
   border: none;
 }
 
+/* we-are-gamer section */
+
+.we-are-gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.we-are-gamer-div {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+.we-are-gamer-text {
+  text-align: right;
+}
+.we-are-gamer-text h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.we-are-gamer-text p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.we-are-gamer-text h5 {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.we-are-gamer-text h2 {
+  color: #534c64;
+  font-size: 26px;
+  font-weight: 700;
+}
+
 /* online games section */
 
 .online-games-section {
@@ -239,6 +287,61 @@ nav {
   position: absolute;
   top: 370px;
   right: 450px;
+}
+
+/* Careers section */
+
+.carrer-section {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+.carrer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.carrer-img img {
+  width: 700px;
+  height: 600px;
+}
+.carrer-text {
+  padding: 60px;
+}
+.carrer-text button {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #fff;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.carrer-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.carrer-text p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.carrer-list-div {
+  display: flex;
+  justify-content: space-between;
+}
+.carrer-list-div li {
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.list-right-side {
+  text-align: right;
 }
 
 /* catagories section */
