@@ -111,6 +111,7 @@ nav {
   color: #fff;
   border: none;
   margin-right: 20px;
+  cursor: pointer;
 }
 .banner-btn-2 {
   padding: 21px 40px;
@@ -118,6 +119,7 @@ nav {
   background-color: #4ec5f7;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 /* we-are-gamer section */
@@ -343,7 +345,7 @@ nav {
 .list-right-side {
   text-align: right;
 }
-.carrer-text button{
+.carrer-text button {
   cursor: pointer;
   color: #ff42a5;
 }
