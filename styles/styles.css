@@ -297,9 +297,53 @@ nav {
   right: 450px;
 }
 
+/* play games online section */
+
+.play-games-online-section {
+  max-width: 1440px;
+  margin: 50px auto 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.play-games-online-text {
+  text-align: center;
+  margin-left: 50px;
+  width: 416px;
+}
+.play-games-online-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+.play-games-online-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-games-online-text p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 24px;
+}
+.play-games-online-img {
+  position: relative;
+}
+.parasite-img2 {
+  position: absolute;
+  top: 410px;
+  right: -130px;
+}
+
 /* Careers section */
 
 .carrer-section {
+  margin-top: 180px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 .carrer-container {
